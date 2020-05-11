@@ -1,0 +1,54 @@
+a:nth-of-type(2):active {
+    color: pink;
+    font-weight: italic;
+}
+ 
+
+a:last-of-type:visited{
+    color: yellow; 
+}
+
+a:first-of-type:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+
+input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+.menu { 
+display:flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(122, 218, 181);
+}
+
+.menu li{
+    list-style-type:none;
+}
+
+.menu li:first-child{
+    margin-left: -35px;
+}
+
+.menu li a {
+    color: purple;
+    text-decoration: none;
+}
+
+.currentPage {
+    background-color: lightgray;
+}
+
+.currentPage a:hover {
+    color: orange;
+}
+
+.menu input:focus {
+    outline: none;
+    border:1px solid aquamarine;
+}
